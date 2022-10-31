@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 
 	@GetMapping("/login")
-	public String sayHello()
+	public String login()
 	{
 		System.out.println("vinod");
 		System.out.println("hello");
 		return "Hello world!!!!!!!!!!";
 		
 	}
-}
 
 }
